@@ -6,13 +6,13 @@ const Product = require("../models/ProductModel");
 exports.categoryIndex = (req, res) => {
   Category.find()
     .sort({ name: 1 })
-    .then(category => res.json());
+    .then(category => res.json(category));
 };
 
 //handle POST reqest at /api/category/create to create a new category
 exports.createCategory = (req, res) => {
   // Create a newCategory object with escaped and trimmed data if it's valid
-  let newCategory = new category({
+  let newCategory = new Category({
     name: req.body.name,
     description: req.body.description
   });
