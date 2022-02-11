@@ -13,8 +13,7 @@
 
 ## 🚩 Description
 
-> This App was made to track the order state since the customer place it
-> once it's shipped the seller mark it as shipped, and then the shipper mark it as delivered.
+Build a CMS-style E-commerce site, where developers can buy and sell the goods online. The site is built from MERN and deployed to Heroku.This App was made to track the order state since the customer place it
 
 ## Technologies
 > Project is created with:
